@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<script type="text/javascript" src="../src/js/script.js"></script>
-	<link rel="stylesheet" type="text/css" href="../src/scss/style.scss">
+	<link rel="stylesheet" type="text/css" href="../src/scss/style.css">
 </head>
 <body>
 	<div class="main">
@@ -17,7 +17,17 @@
 				<p id="price">1200₽</p>
 				<button id="buy" onclick="addToCart()">Добавить в корзину</button>
 			</div>
-			<button class="buye"><a href="cart.html">Корзина</a></button>
+		</div>
+		<div class="cart">
+			<div class="cart__description">
+				<div class="produuct">
+					<p id="cartName">Неизвестный товар</p>
+					<p id="priceName">???₽</p>
+				</div>
+			</div>
+			<div class="product__clear">
+				<button id="buy" onclick="clearCart()">Обнулить корзину</button>
+			</div>
 		</div>
 	</div>
 	<footer>

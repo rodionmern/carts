@@ -1,0 +1,1 @@
+var prodc = document.getElementById('product').innerHTML = priceDOM; 
